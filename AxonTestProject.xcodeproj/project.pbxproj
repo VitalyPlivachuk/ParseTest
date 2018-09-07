@@ -13,6 +13,13 @@
 		32008BA22137DAAC005E793B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32008BA12137DAAC005E793B /* Assets.xcassets */; };
 		32008BA52137DAAC005E793B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32008BA32137DAAC005E793B /* LaunchScreen.storyboard */; };
 		32008BA82137DAAC005E793B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32008BA72137DAAC005E793B /* main.m */; };
+		32008BB32137E0F9005E793B /* EmployeeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32008BB22137E0F9005E793B /* EmployeeModel.m */; };
+		32008BB72137EAA0005E793B /* employees.json in Resources */ = {isa = PBXBuildFile; fileRef = 32008BB62137EAA0005E793B /* employees.json */; };
+		3253FB882142BDD200CE0F14 /* EmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3253FB872142BDD200CE0F14 /* EmployeeViewController.m */; };
+		326F9434213C19B200E854BE /* EmployeesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326F9432213C19B200E854BE /* EmployeesTableViewController.m */; };
+		326F943D213C1F1200E854BE /* EmployeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 326F943B213C1F1200E854BE /* EmployeeTableViewCell.m */; };
+		326F9442213C30B000E854BE /* Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 326F9441213C30B000E854BE /* Networking.m */; };
+		5ED44BE198F920BAA4236CC0 /* libPods-AxonTestProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFC1FC5325F2B5B116BD003 /* libPods-AxonTestProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		32008BA42137DAAC005E793B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32008BA62137DAAC005E793B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32008BA72137DAAC005E793B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32008BB22137E0F9005E793B /* EmployeeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeModel.m; sourceTree = "<group>"; };
+		32008BB52137E10E005E793B /* EmployeeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeModel.h; sourceTree = "<group>"; };
+		32008BB62137EAA0005E793B /* employees.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = employees.json; sourceTree = "<group>"; };
+		3253FB862142BDD200CE0F14 /* EmployeeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeViewController.h; sourceTree = "<group>"; };
+		3253FB872142BDD200CE0F14 /* EmployeeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeViewController.m; sourceTree = "<group>"; };
+		326F9431213C19B200E854BE /* EmployeesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeesTableViewController.h; sourceTree = "<group>"; };
+		326F9432213C19B200E854BE /* EmployeesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeesTableViewController.m; sourceTree = "<group>"; };
+		326F943A213C1F1200E854BE /* EmployeeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeTableViewCell.h; sourceTree = "<group>"; };
+		326F943B213C1F1200E854BE /* EmployeeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeTableViewCell.m; sourceTree = "<group>"; };
+		326F9440213C30B000E854BE /* Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
+		326F9441213C30B000E854BE /* Networking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Networking.m; sourceTree = "<group>"; };
+		3B08846C66674425F1181151 /* Pods-AxonTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxonTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-AxonTestProject/Pods-AxonTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		BDFC1FC5325F2B5B116BD003 /* libPods-AxonTestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AxonTestProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBDA8FC98C784574D41048B /* Pods-AxonTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxonTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AxonTestProject/Pods-AxonTestProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED44BE198F920BAA4236CC0 /* libPods-AxonTestProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +66,8 @@
 			children = (
 				32008B972137DAA9005E793B /* AxonTestProject */,
 				32008B962137DAA9005E793B /* Products */,
+				89FC10BFFD7294F944B10626 /* Pods */,
+				72591C782BB4F9937B461D76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +86,73 @@
 				32008B992137DAA9005E793B /* AppDelegate.m */,
 				32008B9B2137DAA9005E793B /* ViewController.h */,
 				32008B9C2137DAA9005E793B /* ViewController.m */,
+				326F9440213C30B000E854BE /* Networking.h */,
+				326F9441213C30B000E854BE /* Networking.m */,
+				3253FB892142BDDC00CE0F14 /* EmployeeScreen */,
+				326F9436213C19B900E854BE /* EmployeesScreen */,
+				32008BB42137E0FF005E793B /* Models */,
 				32008B9E2137DAA9005E793B /* Main.storyboard */,
 				32008BA12137DAAC005E793B /* Assets.xcassets */,
 				32008BA32137DAAC005E793B /* LaunchScreen.storyboard */,
 				32008BA62137DAAC005E793B /* Info.plist */,
 				32008BA72137DAAC005E793B /* main.m */,
+				32008BB62137EAA0005E793B /* employees.json */,
 			);
 			path = AxonTestProject;
+			sourceTree = "<group>";
+		};
+		32008BB42137E0FF005E793B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32008BB52137E10E005E793B /* EmployeeModel.h */,
+				32008BB22137E0F9005E793B /* EmployeeModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3253FB892142BDDC00CE0F14 /* EmployeeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3253FB862142BDD200CE0F14 /* EmployeeViewController.h */,
+				3253FB872142BDD200CE0F14 /* EmployeeViewController.m */,
+			);
+			path = EmployeeScreen;
+			sourceTree = "<group>";
+		};
+		326F9436213C19B900E854BE /* EmployeesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				326F9431213C19B200E854BE /* EmployeesTableViewController.h */,
+				326F9432213C19B200E854BE /* EmployeesTableViewController.m */,
+				326F943F213C1F1800E854BE /* Cell */,
+			);
+			path = EmployeesScreen;
+			sourceTree = "<group>";
+		};
+		326F943F213C1F1800E854BE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				326F943A213C1F1200E854BE /* EmployeeTableViewCell.h */,
+				326F943B213C1F1200E854BE /* EmployeeTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		72591C782BB4F9937B461D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDFC1FC5325F2B5B116BD003 /* libPods-AxonTestProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89FC10BFFD7294F944B10626 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECBDA8FC98C784574D41048B /* Pods-AxonTestProject.debug.xcconfig */,
+				3B08846C66674425F1181151 /* Pods-AxonTestProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32008BAB2137DAAC005E793B /* Build configuration list for PBXNativeTarget "AxonTestProject" */;
 			buildPhases = (
+				E6A2E035ABCE665BCF1753AA /* [CP] Check Pods Manifest.lock */,
 				32008B912137DAA9005E793B /* Sources */,
 				32008B922137DAA9005E793B /* Frameworks */,
 				32008B932137DAA9005E793B /* Resources */,
@@ -131,17 +216,44 @@
 				32008BA52137DAAC005E793B /* LaunchScreen.storyboard in Resources */,
 				32008BA22137DAAC005E793B /* Assets.xcassets in Resources */,
 				32008BA02137DAA9005E793B /* Main.storyboard in Resources */,
+				32008BB72137EAA0005E793B /* employees.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6A2E035ABCE665BCF1753AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AxonTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32008B912137DAA9005E793B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32008BB32137E0F9005E793B /* EmployeeModel.m in Sources */,
 				32008B9D2137DAA9005E793B /* ViewController.m in Sources */,
+				3253FB882142BDD200CE0F14 /* EmployeeViewController.m in Sources */,
+				326F9434213C19B200E854BE /* EmployeesTableViewController.m in Sources */,
+				326F9442213C30B000E854BE /* Networking.m in Sources */,
+				326F943D213C1F1200E854BE /* EmployeeTableViewCell.m in Sources */,
 				32008BA82137DAAC005E793B /* main.m in Sources */,
 				32008B9A2137DAA9005E793B /* AppDelegate.m in Sources */,
 			);
@@ -281,11 +393,13 @@
 		};
 		32008BAC2137DAAC005E793B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBDA8FC98C784574D41048B /* Pods-AxonTestProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JL4LXHDE2;
 				INFOPLIST_FILE = AxonTestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +412,13 @@
 		};
 		32008BAD2137DAAC005E793B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B08846C66674425F1181151 /* Pods-AxonTestProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JL4LXHDE2;
 				INFOPLIST_FILE = AxonTestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
